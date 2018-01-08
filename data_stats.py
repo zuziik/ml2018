@@ -52,27 +52,27 @@ print ( "Std of director age: {}".format(int(np.std(age, axis=0))) )
 #------------------------------------------------------------------------------
 # Visualization
 
-#plt.xlabel ("Rok vydania snímky")
-#plt.ylabel ("Dĺžka snímky")
-#plt.scatter (data[:,1].tolist(), data[:,-1].tolist(), marker='x')
-#plt.show()
+plt.xlabel ("Rok vydania snímky")
+plt.ylabel ("Dĺžka snímky")
+plt.scatter (data[:,1].tolist(), data[:,-1].tolist(), marker='x')
+plt.show()
 
-#plt.xlabel ("Rok vydania snímky")
-#plt.ylabel ("Dĺžka snímky")
-#plt.ylim (ymax=1000)
-#plt.scatter (data[:,1].tolist(), data[:,-1].tolist(), marker='x')
-#plt.show()
+plt.xlabel ("Rok vydania snímky")
+plt.ylabel ("Dĺžka snímky")
+plt.ylim (ymax=1000)
+plt.scatter (data[:,1].tolist(), data[:,-1].tolist(), marker='x')
+plt.show()
 
-#plt.xlabel ("Vek režiséra snímky")
-#plt.ylabel ("Dĺžka snímky")
-#plt.scatter (age.tolist(), data[:,-1].tolist(), marker='x')
-#plt.show()
+plt.xlabel ("Vek režiséra snímky")
+plt.ylabel ("Dĺžka snímky")
+plt.scatter (age.tolist(), data[:,-1].tolist(), marker='x')
+plt.show()
 
-#plt.xlabel ("Vek režiséra snímky")
-#plt.ylabel ("Dĺžka snímky")
-#plt.ylim (ymax=1000)
-#plt.scatter (age.tolist(), data[:,-1].tolist(), marker='x')
-#plt.show()
+plt.xlabel ("Vek režiséra snímky")
+plt.ylabel ("Dĺžka snímky")
+plt.ylim (ymax=1000)
+plt.scatter (age.tolist(), data[:,-1].tolist(), marker='x')
+plt.show()
 
 # types
 
